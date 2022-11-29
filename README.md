@@ -39,5 +39,5 @@ Through our modelling, we identified that the Logistic Regression model using TF
 We believe our model can be implemented into CHAT's webCHAT email platform to accurately identify if the subject was experiencing anxiety or depression and allow for counsellors to provide the necessary support and resources to these youths.<br>
 
 Recommendations: <br>
-- As there are many other pyschological conditions that different subjects may be suffering from, we can perhaps include post from other subreddits in our studies to improve our model to be able to predict other conditions.<br>
+- As there are many other pyschological conditions that different subjects may be suffering from, we can perhaps include posts from other subreddits in our studies to improve our model to be able to predict other conditions.<br>
 - We can refer to posts from other platforms and forums to improve our model's accuracy with more variation in data sources.
