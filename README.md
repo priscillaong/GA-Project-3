@@ -1,13 +1,13 @@
 # GA-Project-3
 
 # Problem Statement
-We are a team of Data Analyst at ABC consultancy working together with CHAT to improve their webCHAT email platform for youths to get support for emotional concerns. <br>
+We are a team of Data Analyst at ABC consultancy working together with CHAT to improve their webCHAT email platform for youths to get support for emotional concerns.<br>
 
-Based on the emails received from chat@mentalhealth.sg, we want to accurately assign them into "anxiety" or "depression" and allow the counsellors to provide them the necessary support and resources.
+Based on the emails received from chat@mentalhealth.sg, we want to accurately assign them into "anxiety" or "depression" category and allow the counsellors to provide them the necessary support and resources.<br>
 
 This project aims to:<br>
 (i) Use the reviews from Reddit for r/Anxiety and r/depression and apply modelling to predict if they fall under the anxiety or depression subreddit.<br>
-(ii) Find out the words commonly used by each communities.
+(ii) Find out the words commonly used by both subreddits.
 
 # Background
 
@@ -15,7 +15,7 @@ Due to COVID-19, it resulted in a large group of Singaporeans experiencing anxie
 
 CHAT is the Centre of Excellence for Youth Mental Health in Singapore, which have been helping and supporting young people with mental health concerns since 2009. CHAT runs a national youth mental health outreach and assessment service for youth and young adults aged 16 to 30 ([*source*](https://www.imh.com.sg/CHAT/Pages/default.aspx)).<br>
 
-Young adults in Singaporeans who have experienced psychological distress due to COVID-19 may seek platforms such as CHAT to receive support. Improvements made to CHAT's webCHAT email platform would accurately identify if the subject was experiencing anxiety or depression and allow for counsellors to provide the necessary support and resources to these youths.<br>
+Young adults in Singaporeans who have experienced psychological distress due to COVID-19 may seek platforms such as CHAT to receive support. Improvements made to CHAT's webCHAT email platform would accurately identify if the subject was experiencing anxiety or depression and allow for counsellors to provide the necessary support and resources to these youths.
 
 # Data Dictionary
 |Feature|Type|Dataset|Description|
@@ -39,5 +39,5 @@ Through our modelling, we identified that the Logistic Regression model using TF
 We believe our model can be implemented into CHAT's webCHAT email platform to accurately identify if the subject was experiencing anxiety or depression and allow for counsellors to provide the necessary support and resources to these youths.<br>
 
 Recommendations: <br>
-- As there are many other pyschological conditions that different subjects may be suffering from, we can perhaps include such subreddits in our studies to improve our model to be able to predict other conditions.<br>
-- We can refer to posts from other platforms and forums to improve our model's accuracy with a varied data source.<br>
+- As there are many other pyschological conditions that different subjects may be suffering from, we can perhaps include post from other subreddits in our studies to improve our model to be able to predict other conditions.<br>
+- We can refer to posts from other platforms and forums to improve our model's accuracy with more variation in data sources.
