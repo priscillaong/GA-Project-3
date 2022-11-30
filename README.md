@@ -6,7 +6,7 @@ We are a team of Data Analyst at ABC consultancy working together with CHAT to i
 Based on the emails received from chat@mentalhealth.sg, we want to accurately assign them into "anxiety" or "depression" category and allow the counsellors to provide them the necessary support and resources.<br>
 
 This project aims to:<br>
-(i) Use the reviews from Reddit for r/Anxiety and r/depression and apply modelling to predict if they fall under the anxiety or depression subreddit.<br>
+(i) Use the reviews from Reddit for r/Anxiety and r/depression and apply Naive Bayes, K-Nearest Neighbors and Logistic Regression modelling to predict if they fall under the anxiety or depression subreddit.<br>
 (ii) Find out the words commonly used by both subreddits.
 
 # Background
@@ -34,10 +34,13 @@ The aim of the project was to come up with a model which can predict whether a p
 
 Given that both condition are psychologial conditions which can be fairly closely interlinked, words such are "feel like", "dont know", "anyone else", "dont want" and "mental health" can be seen repeated in both subreddits.<br>
 
-Through our modelling, we identified that the Logistic Regression model using TF-IDF-unigram vectorization performed the best out of all the models with a accuracy of 88%, f1-score of 88% and AOC of 0.95.<br>
+Through our modelling, we identified that the Logistic Regression model using TF-IDF-unigram vectorization performed the best out of all the models with a accuracy of 88% (without K-fold Cross Validation), f1-score of 88% and AOC of 0.95.<br>
 
 We believe our model can be implemented into CHAT's webCHAT email platform to accurately identify if the subject was experiencing anxiety or depression and allow for counsellors to provide the necessary support and resources to these youths.<br>
 
+Limitations: <br>
+- Given that the words used by both the anxiety and depression communities may be fairly similar, there might be a limitation at how well our model can make prediction with high accuracies (>95%). Hence, our recommendations as per point 2 below.
+
 Recommendations: <br>
-- As there are many other pyschological conditions that different subjects may be suffering from, we can perhaps include posts from other subreddits in our studies to improve our model to be able to predict other conditions.<br>
-- We can refer to posts from other platforms and forums to improve our model's accuracy with more variation in data sources.
+1. As there are many other pyschological conditions that different subjects may be suffering from, we can perhaps include posts from other subreddits in our studies to improve our model to be able to predict other conditions.
+2. We can refer to posts from other platforms and forums to improve our model's accuracy with more variation in data sources.
