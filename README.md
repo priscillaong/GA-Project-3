@@ -27,14 +27,14 @@ Young adults in Singaporeans who have experienced psychological distress due to 
 # Summary of Analysis
 Words such are "feel like", "dont know", "anyone else", "dont want" and "mental health" can be seen repeated in both subreddits. <br>
 
-We identified that the Logistic Regression model using TF-IDF-unigram vectorization performed the best out of all the models with a accuracy of 88%, f1-score of 88% and AOC of 0.95.
+We identified that the Logistic Regression model using TF-IDF-unigram vectorization performed the best out of all the models with a accuracy of 88%, f1-score of 88% and AUC of 0.95.
 
 # Conclusion/Recommendations
 The aim of the project was to come up with a model which can predict whether a post from reddit was from the anxiety or depression subreddit and identify words commonly used by both communities by analysing the words from the title and description of these posts.<br>
 
 Given that both condition are psychologial conditions which can be fairly closely interlinked, words such are "feel like", "dont know", "anyone else", "dont want" and "mental health" can be seen repeated in both subreddits.<br>
 
-Through our modelling, we identified that the Logistic Regression model using TF-IDF-unigram vectorization performed the best out of all the models with a accuracy of 88% (without K-fold Cross Validation), f1-score of 88% and AOC of 0.95.<br>
+Through our modelling, we identified that the Logistic Regression model using TF-IDF-unigram vectorization performed the best out of all the models with a accuracy of 88% (without K-fold Cross Validation), f1-score of 88% and AUC of 0.95.<br>
 
 We believe our model can be implemented into CHAT's webCHAT email platform to accurately identify if the subject was experiencing anxiety or depression and allow for counsellors to provide the necessary support and resources to these youths.<br>
 
